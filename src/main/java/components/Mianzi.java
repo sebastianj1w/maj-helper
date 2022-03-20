@@ -1,12 +1,11 @@
 package components;
 
+import components.Pai.Pai;
 import enums.MianziTypeEnum;
-
-import java.util.List;
 
 public class Mianzi {
     private MianziTypeEnum type;
-    private Tile[] tileList = new Tile[3];
+    private Pai[] tileList = new Pai[3];
     private Boolean listen;
     private Integer listen_idx;
 
@@ -14,11 +13,11 @@ public class Mianzi {
         return type;
     }
 
-    public Tile[] getTileList() {
+    public Pai[] getTileList() {
         return tileList;
     }
 
-    public void setTiles(Tile[] tileList) {
+    public void setTiles(Pai[] tileList) {
         this.tileList = tileList;
     }
 
